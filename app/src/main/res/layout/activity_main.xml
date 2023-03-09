@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sigin" />
+
+    <Button
+        android:id="@+id/siginOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="siginOut" />
+
+    <Button
+        android:id="@+id/siginFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="siginFace" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="face" />
+
+    <TextView
+        android:id="@+id/statusFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="slfksldkf"
+        android:textSize="17dp" />
+
+</LinearLayout>
